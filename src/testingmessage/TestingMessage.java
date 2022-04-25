@@ -9,14 +9,16 @@ package testingmessage;
  *
  * @author ST10070274
  */
-public class TestingMessage {
+public class TestingMessage 
+{
 
     /**
      * @param args the command line arguments
      */
-    
-    String returnMessage = "Hello World";
-    
+
+    //declare a message string to be returned
+    String returnMessage = "Hello New World";
+    // method to return a string
     
     public String getMessage()
     {
